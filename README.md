@@ -33,7 +33,7 @@ Settings -> Actions -> General -> Workflow Permissions -> Read and Write
 
 ### Step 3: Add New Remote to Cloned Repository
 
-Use copilot cli
+Use copilot cli to add a new remote
 
 ```
 gh copilot suggest "how to add a new remote to github repository"
@@ -57,6 +57,8 @@ on:
 ```
 
 ### Step 5: Define job in the workflow
+
+Ask to copilot to define a basic job
 
 ```
 #file:handson.yml define a job ci without steps, use ubuntu-latest as runner
