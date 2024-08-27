@@ -1,6 +1,6 @@
 const nextConfig = {
-  assetPrefix: "", // Change this to your the repository name
-  basePath: "", // Change this to your the repository name
+  assetPrefix: "/gh-action-copilot-handson", // Change this to your the repository name
+  basePath: "/gh-action-copilot-handson", // Change this to your the repository name
   output: "export",
 };
 
