@@ -34,3 +34,9 @@ jobs:
           base: ""
           head: ${{ github.ref_name }}
           extra_args: --only-verified
+
+      - name: Run tests
+        run: npm test
+      #Add another step to run the build with npm run
+      - name: Run build
+        run: npm run build
